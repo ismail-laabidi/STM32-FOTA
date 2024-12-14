@@ -69,3 +69,22 @@ graph TD
     E --> F[Réception du fichier firmware]
     F --> G[Écriture dans la Flash STM32]
     G --> H[Lancement de l'application utilisateur]
+
+## Structure du projet
+
+FOTA
+├── ESP32/
+│   ├── ESP32_FOTA.ino       # Code source pour l'ESP32
+│   ├── README.md            # Documentation spécifique à l'ESP32
+│   └── ...
+├── STM32/
+│   ├── Bootloader/
+│   │   ├── main.c           # Bootloader STM32
+│   │   ├── stm32f1xx_hal.c  # HAL STM32
+│   │   └── ...
+│   └── Application/
+│       ├── main.c           # Exemple d'application utilisateur
+│       └── ...
+├── README.md                # Ce fichier
+└── LICENSE      
+
