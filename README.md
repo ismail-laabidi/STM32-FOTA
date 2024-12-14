@@ -70,21 +70,16 @@ graph TD
     F --> G[Écriture dans la Flash STM32]
     G --> H[Lancement de l'application utilisateur]
 
-## Structure du projet
+## Équipe
+- Ce projet a été réalisé par :
+  - **Ismail Laabidi**
+  - **Majok**
+  - **El Mostapha El Mossaoui**
+  - **Abdelmajid Oumalki**
+- Encadré par :
+  - **Mr. Belkouche**
 
-FOTA
-├── ESP32/
-│   ├── ESP32_FOTA.ino       # Code source pour l'ESP32
-│   ├── README.md            # Documentation spécifique à l'ESP32
-│   └── ...
-├── STM32/
-│   ├── Bootloader/
-│   │   ├── main.c           # Bootloader STM32
-│   │   ├── stm32f1xx_hal.c  # HAL STM32
-│   │   └── ...
-│   └── Application/
-│       ├── main.c           # Exemple d'application utilisateur
-│       └── ...
-├── README.md                # Ce fichier
-└── LICENSE      
-
+## Ressources et références
+- [Arduino Core for ESP32 Documentation](https://docs.espressif.com/projects/arduino-esp32/en/latest/)
+- [STM32 HAL Documentation](https://www.st.com/en/development-tools/stm32cubeide.html)
+- [GitHub Releases](https://docs.github.com/en/repositories/releasing-projects-on-github)
