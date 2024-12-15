@@ -20,7 +20,6 @@ flowchart TD
     K --> L[Fin]
 
 
-flowchart TD
     id1[Start]:::customStyle1 --> id2[Connect to WiFi]:::customStyle2
     id2 --> id3[Download File]:::customStyle3
     id3 --> id4[Send File via UART]:::customStyle4
