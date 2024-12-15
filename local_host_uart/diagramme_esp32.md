@@ -20,7 +20,7 @@ flowchart TD
     K --> L[Fin]:::customStyle1
 
     %% Define custom styles
-    classDef customStyle1 fill:#f694,stroke:#111,stroke-width:2px;
+    classDef customStyle1 fill:#5994,stroke:#111,stroke-width:2px;
     classDef customStyle2 fill:#ffcc00,stroke:#000,stroke-width:2px;
     classDef customStyle3 fill:#0f0,stroke:#000,stroke-width:2px;
     classDef customStyle4 fill:#00f,stroke:#fff,stroke-width:2px;
