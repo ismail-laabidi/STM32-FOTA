@@ -19,12 +19,6 @@ flowchart TD
     I --> K[Transfert terminé]:::customStyle1
     K --> L[Fin]:::customStyle1
 
-
-    id1[Start]:::customStyle1 --> id2[Connect to WiFi]:::customStyle2
-    id2 --> id3[Download File]:::customStyle3
-    id3 --> id4[Send File via UART]:::customStyle4
-    id4 --> id5[End]:::customStyle1
-
     %% Define custom styles
     classDef customStyle1 fill:#f994,stroke:#111,stroke-width:2px;
     classDef customStyle2 fill:#ffcc00,stroke:#000,stroke-width:2px;
