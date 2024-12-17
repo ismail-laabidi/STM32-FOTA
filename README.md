@@ -59,8 +59,6 @@ Le projet est divisé en deux composants principaux :
    - ESP32 : Téléchargement du firmware et transfert UART.
    - STM32 : Réception, écriture dans la Flash, et exécution de l'application mise à jour.
 
-<<<<<<< HEAD
-=======
 ## Équipe
 - Ce projet a été réalisé par :
   - **Ismail Laabidi**
@@ -76,7 +74,6 @@ Le projet est divisé en deux composants principaux :
 - [GitHub Releases](https://docs.github.com/en/repositories/releasing-projects-on-github)
 
 
->>>>>>> a861a8e04152eddd4ea8dbe5745c515e042961a4
 ## Diagramme de flux
 ```mermaid
 graph TD
@@ -87,7 +84,4 @@ graph TD
     E --> F[Réception du fichier firmware]
     F --> G[Écriture dans la Flash STM32]
     G --> H[Lancement de l'application utilisateur]
-<<<<<<< HEAD
-=======
 
->>>>>>> a861a8e04152eddd4ea8dbe5745c515e042961a4
