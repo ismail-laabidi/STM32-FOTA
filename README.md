@@ -59,6 +59,24 @@ Le projet est divisé en deux composants principaux :
    - ESP32 : Téléchargement du firmware et transfert UART.
    - STM32 : Réception, écriture dans la Flash, et exécution de l'application mise à jour.
 
+<<<<<<< HEAD
+=======
+## Équipe
+- Ce projet a été réalisé par :
+  - **Ismail Laabidi**
+  - **Majok**
+  - **El Mostapha El Mossaoui**
+  - **Abdelmajid Oumalki**
+- Encadré par :
+  - **Mr. Belkouche**
+
+## Ressources et références
+- [Arduino Core for ESP32 Documentation](https://docs.espressif.com/projects/arduino-esp32/en/latest/)
+- [STM32 HAL Documentation](https://www.st.com/en/development-tools/stm32cubeide.html)
+- [GitHub Releases](https://docs.github.com/en/repositories/releasing-projects-on-github)
+
+
+>>>>>>> a861a8e04152eddd4ea8dbe5745c515e042961a4
 ## Diagramme de flux
 ```mermaid
 graph TD
@@ -69,3 +87,7 @@ graph TD
     E --> F[Réception du fichier firmware]
     F --> G[Écriture dans la Flash STM32]
     G --> H[Lancement de l'application utilisateur]
+<<<<<<< HEAD
+=======
+
+>>>>>>> a861a8e04152eddd4ea8dbe5745c515e042961a4
