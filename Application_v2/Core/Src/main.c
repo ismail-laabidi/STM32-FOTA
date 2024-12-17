@@ -37,7 +37,7 @@
 /* Private macro -------------------------------------------------------------*/
 /* USER CODE BEGIN PM */
 #define MAJOR 0
-#define MINOR 1
+#define MINOR 2
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
