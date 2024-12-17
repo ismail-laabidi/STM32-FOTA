@@ -1,4 +1,5 @@
-flowchart TD
+```mermaid
+graph TD
     A[Initialisation du système] --> B{Configuration des périphériques}
     B -->|GPIO Init| C[Initialisation des GPIOs]
     B -->|UART Init| D[Initialisation de l'UART1]
