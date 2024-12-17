@@ -86,7 +86,6 @@ graph TD
     G --> H[Lancement de l'application utilisateur]
 
 
-flowchart TD
     A[Initialisation du système] --> B{Configuration des périphériques}
     B -->|GPIO Init| C[Initialisation des GPIOs]
     B -->|UART Init| D[Initialisation de l'UART1]
