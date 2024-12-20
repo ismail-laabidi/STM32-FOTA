@@ -5,7 +5,7 @@
 // Configuration WiFi
 #define WIFI_SSID ".."
 #define WIFI_PASSWORD "12131415"
-#define FILE_URL "http://192.168.43.199:8000/application.bin"
+#define FILE_URL "http://192.168.32.215:8000/application.bin"
 #define FILE_PATH "/downloaded_file.bin"
 
 // Configuration UART
