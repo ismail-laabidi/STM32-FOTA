@@ -148,19 +148,15 @@ void sendFileToSTM32() {
       if (Serial2.available() && Serial2.read() == 'y') {
         for (int i=0 ; i<bytesRead ; i++) {
           Serial2.write(buffer[i]);
-        Serial.println("rani sift block a weld l9a7ba!!!!!");
         delay(10);
          while (true) {
       if (Serial2.available() && Serial2.read() == 'x') {
-        Serial.println("rani wsalni x a weld l9a7ba!!!!!");
         break;
       }
       delay(10);
     }
 
         }
-        //Serial2.write(buffer, bytesRead);
-        //Serial.println("rani sift block a weld l9a7ba!!!!!");
         break;
       }
       delay(10);
